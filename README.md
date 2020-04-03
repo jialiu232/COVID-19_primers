@@ -2,7 +2,7 @@
 
 - Very basic introduction of COVID-19 from literature
 
-- Current available PCR primer sets for targeting COVID-19
+- Evaluate the efficiency and accuracy of current available PCR primer sets for targeting COVID-19
 
 - Potential opportunity: generate more specific and accurate primer sets for COVID-19 with MetaFunPrimer
 
