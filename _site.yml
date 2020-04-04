@@ -7,3 +7,7 @@ navbar:
       href: index.html
     - text: "Primers"
       href: about.html
+output:
+  html_document:
+    theme: cosmo
+    css: style.css
