@@ -1,0 +1,9 @@
+name: "covid-19"
+output_dir: "."
+navbar:
+  title: "COVID-19"
+  left:
+    - text: "Basic information from literature"
+      href: index.html
+    - text: "Primer"
+      href: about.html
