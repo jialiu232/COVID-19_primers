@@ -3,7 +3,7 @@ output_dir: "."
 navbar:
   title: "COVID-19"
   left:
-    - text: "Basic information from literature"
+    - text: "Basic introduction from literature"
       href: index.html
-    - text: "Primer"
+    - text: "Primers"
       href: about.html
