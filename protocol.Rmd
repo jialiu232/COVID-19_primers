@@ -5,24 +5,29 @@ title: "Potential protocol for Germs"
 <br><br>
 
 #### 1. Check the amplification ability of current available primer sets
+- Taqman primers and probes 
+<br><br>
 
 If current primers are not good enough: 
-#### 2. find out the candidate targeting regions
+
+#### 2. Find out the candidate targeting regions
 
 - multiple sequence alignment (msa) of COVID-19 whole genomes 
 - find the conservative and non-repetitive regions of msa output (should get orf1ab(RdRp1) and N gene) as the candidate regions for primer design
 
-  ** Notice**: This has been done by a lot of labs, and current primers are designed to target RdRp1, orf1ab, N, E (first screening method) genes; maybe we can skip the previous two steps and utilize the current available information about target regions
+  **Notice**: This has been done by a lot of labs, and current primers are designed to target RdRp1, orf1ab, N, E (first screening method) genes; maybe we can skip the previous two steps and utilize the current available information about target regions
   
 - get the sequences for regions that we are gonna design primer for (RdRp1, orf1ab, N, E)
 - test the similarity between these candidate regions and other related RNA virus to check the specificity
+<br><br>
 
-#### 3. design primers for targeting regions
+#### 3. Design primers for targeting regions
 
 - set the parameters according to requirements (need attentions)
 - design probes?
+<br><br>
 
-#### 4. check the ability of the output primers against
+#### 4. Check the ability of the output primers against
 
 - input COVID-19 genomes; 
 - genome neighbours; 

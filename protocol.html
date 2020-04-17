@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction about COVID-19</title>
+<title>Potential protocol for Germs</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -293,64 +293,47 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Introduction about COVID-19</h1>
+<h1 class="title toc-ignore">Potential protocol for Germs</h1>
 
 </div>
 
 
 <p><br><br></p>
+<div id="check-the-amplification-ability-of-current-available-primer-sets" class="section level4">
+<h4>1. Check the amplification ability of current available primer sets</h4>
 <ul>
-<li><h4 id="betacoronavirus-ssrna-virus">Betacoronavirus; +ssRNA virus</h4></li>
-<li><h4 id="possess-14-orfs-encoding-27-proteins">Possess 14 ORFs encoding 27 proteins</h4>
-<ul>
-<li>5’ terminus: orf1ab and orf1a genes respectively encode the pp1ab and pp1a proteins (15 nsps including nsp1 to nsp10 and nsp12 to nsp16)</li>
-<li>3’ terminus: 4 structural proteins (S, E, M, and N) and eight accessory proteins (3a, 3b, p6, 7a, 7b, 8b, 9b, and orf14)</li>
-</ul></li>
+<li>Taqman primers and probes <br><br></li>
 </ul>
-<center>
-<div class="figure">
-<img src="1_pro_frag.jpg" />
-
+<p>If current primers are not good enough:</p>
 </div>
-<p><font size="2"> <a href="DOI:https://doi.org/10.1016/j.chom.2020.02.001" class="uri">DOI:https://doi.org/10.1016/j.chom.2020.02.001</a> </font></p>
-</center>
-<p><br><br></p>
+<div id="find-out-the-candidate-targeting-regions" class="section level4">
+<h4>2. Find out the candidate targeting regions</h4>
 <ul>
-<li><h4 id="divergence-of-covid-19">Divergence of COVID-19</h4>
-<ul>
-<li>380 amino acid substitutions between COVID-19 and SARS or SARS-like viruses. It might be these substitutions that have caused functional divergence of COVID-19</li>
-<li>Has the highest similarity with SARS-like bat Cov</li>
-</ul></li>
+<li>multiple sequence alignment (msa) of COVID-19 whole genomes</li>
+<li>find the conservative and non-repetitive regions of msa output (should get orf1ab(RdRp1) and N gene) as the candidate regions for primer design</li>
 </ul>
-<center>
-<div class="figure">
-<img src="2_genome_tree.jpg" />
-
-</div>
-<font size="2"> <a href="DOI:https://doi.org/10.1016/j.chom.2020.02.001" class="uri">DOI:https://doi.org/10.1016/j.chom.2020.02.001</a> </font>
-</center>
-<center>
-<div class="figure">
-<img src="1_11.png" />
-
-</div>
-<font size="2"> Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) </font>
-</center>
-<p><br><br><br><br></p>
+<p><strong>Notice</strong>: This has been done by a lot of labs, and current primers are designed to target RdRp1, orf1ab, N, E (first screening method) genes; maybe we can skip the previous two steps and utilize the current available information about target regions</p>
 <ul>
-<li><h4 id="targeting-positions-of-pcr">Targeting positions of PCR</h4>
-<ul>
-<li>RdRp genes, N gene</li>
-</ul></li>
+<li>get the sequences for regions that we are gonna design primer for (RdRp1, orf1ab, N, E)</li>
+<li>test the similarity between these candidate regions and other related RNA virus to check the specificity <br><br></li>
 </ul>
-<center>
-<div class="figure">
-<img src="3_target_pos.jpg" />
-
 </div>
-<p><font size="2"> <a href="DOI:https://doi.org/10.1101/2020.02.25.964775" class="uri">DOI:https://doi.org/10.1101/2020.02.25.964775</a> </font></p>
-<font size="2">N gene RT-PCR is recommended as a screening assay and the Orf1b assay as a confirmatory one by School of Public Health, Hongkong University. An N gene positive/Orf1b negative result should be regarded as indeterminate and the case is recommended to be referred to a WHO reference lab for further testing. </font>
-</center>
+<div id="design-primers-for-targeting-regions" class="section level4">
+<h4>3. Design primers for targeting regions</h4>
+<ul>
+<li>set the parameters according to requirements (need attentions)</li>
+<li>design probes? <br><br></li>
+</ul>
+</div>
+<div id="check-the-ability-of-the-output-primers-against" class="section level4">
+<h4>4. Check the ability of the output primers against</h4>
+<ul>
+<li>input COVID-19 genomes;</li>
+<li>genome neighbours;</li>
+<li>other viruses;</li>
+<li>human genomes</li>
+</ul>
+</div>
 
 
 

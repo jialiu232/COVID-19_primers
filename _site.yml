@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "Primers"
       href: about.html
+    - text: "Protocol"
+      href: protocol.html
 output:
   html_document:
     theme: flatly

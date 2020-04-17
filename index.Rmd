@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Introduction about COVID-19"
 ---
 
 <br><br>
@@ -52,6 +52,12 @@ title: "Introduction"
 <center>
 ![](3_target_pos.jpg)
 
+
+
 <font size="2"> DOI:https://doi.org/10.1101/2020.02.25.964775
+</font>       
+
+<font size="2">N gene RT-PCR is recommended as a screening assay and the Orf1b assay as a confirmatory one by School of Public Health, Hongkong University. 
+An N gene positive/Orf1b negative result should be regarded as indeterminate and the case is recommended to be referred to a WHO reference lab for further testing.
 </font>
 </center>
