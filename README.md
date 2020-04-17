@@ -6,3 +6,5 @@
 
 - Potential opportunity: generate more specific and accurate primer sets for COVID-19 with MetaFunPrimer
 
+See the website of COVID-19 from here https://jialiu232.github.io/COVID-19_primers/
+
